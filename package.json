@@ -1,0 +1,26 @@
+{
+  "fitbit": {
+    "appUUID": "5984da13-d163-43e9-ba48-96231a26a75a",
+    "appType": "app",
+    "appDisplayName": "WavyHeart",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#f44336",
+    "requestedPermissions": [
+      "access_activity",
+      "access_internet",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "WavyHeart"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "dependencies": {
+    "@fitbit/sdk": "^6.1.0"
+  }
+}
