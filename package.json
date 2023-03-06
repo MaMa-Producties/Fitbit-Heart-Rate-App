@@ -1,6 +1,9 @@
 {
+  "devDependencies": {
+    "@fitbit/sdk": "4.3.0"
+  },
   "fitbit": {
-    "appUUID": "5984da13-d163-43e9-ba48-96231a26a75a",
+    "appUUID": "cf1b9df9-1502-479d-ac66-af58285bcddc",
     "appType": "app",
     "appDisplayName": "WavyHeart",
     "iconFile": "resources/icon.png",
@@ -21,6 +24,6 @@
     "defaultLanguage": "en-US"
   },
   "dependencies": {
-    "@fitbit/sdk": "^6.1.0"
+    "keytar": "7.9.0"
   }
 }
